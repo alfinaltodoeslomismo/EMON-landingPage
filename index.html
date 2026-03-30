@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMON Arq</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EMON Arq</div>
+        <ul class="nav-links">
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+        <header class="hero">
+        <div class="hero-content">
+            <h1>E M O N</h1>
+            <p>Creamos espacios que cuentan tu historia.</p>
+            <a href="#proyectos" class="btn-primary">Ver Portafolio</a>
+        </div>
+    </header>
+
+
+    <section id="proyectos" class="portfolio">
+        <h2>Proyectos Destacados</h2>
+        <div class="grid">
+            <div class="card"><img src="./img/residencial-fron-page.jfif" alt="Residencial"></div>
+            <div class="card"><img src="./img/comercial-front-page-retail.jfif" alt="Comercial"></div>
+            <div class="card"><img src="./img/interiorismo-front-page.jfif" alt="Interiorismo"></div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Hablemos de tu idea</h2>
+        <form id="contact-form">
+            <input type="text" id="nombre" placeholder="Nombre completo" required>
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <textarea id="mensaje" placeholder="Describe tu proyecto" rows="5" required></textarea>
+            <button type="submit">Enviar Propuesta</button>
+        </form>
+    </section>
+
+    <!-- Enlace al archivo JS -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
